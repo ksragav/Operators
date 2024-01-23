@@ -1,9 +1,9 @@
-function submitform(buttonclick,db){
+function submitform(buttonclick,callback){
       setTimeout(function(){
         
         console.log(buttonclick)
-        db()
-      },2000)
+        callback()
+      },100)
       
 }
 
