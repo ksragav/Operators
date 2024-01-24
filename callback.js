@@ -1,15 +1,12 @@
-function submitform(buttonclick,callback){
-      setTimeout(function(){
-        
-        console.log(buttonclick)
-        callback()
-      },100)
-      
+function hacker(alert,callback){
+  setTimeout(function(){
+    console.log(alert)
+    callback()
+  },1000)
 }
 
-function database(){
-  console.log("Form submitted successfully")
+function teddybarehack(){
+  console.log("GO to hell")
 }
 
-
-submitform("Form Submit button click",database)
+hacker("Your device is hacked",teddybarehack)
